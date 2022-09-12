@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-color: #046582;
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FAF0D7;
+  text-shadow: 5px 0 #354259;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #354259;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #D35D6E;
+}
+
+.green {
+  background-color: #92BA92;
+}
+
+.blue {
+  background-color: #8CC0DE;
+}
+
+.yellow {
+  background-color: #FFF89A;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
